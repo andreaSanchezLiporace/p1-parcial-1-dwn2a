@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Programación I | Parcial 1 | SANCHEZ LIPORACE, ANDREA</title>
+    </head>
+    <body>
+        <header>
+            <h1>DISCOTECA</h1>
+            <p>Programación I - Parcial 1 </p>
+            <p>Alumna: Andrea Sanchez Liporace</p>
+            <div id="botones">
+                <!--Boton para la carga de la informacion del disco-->
+                <button onclick="Cargar();">Cargar disco</button>
+                <!--Boton para mostrar la información de todos los discos cargados en el programa-->
+                <button onclick="Mostrar();">Mostrar discoteca</button>
+                <!--Buscador de un disco en especifico-->
+                <button onclick="BuscarDisco();">Buscar disco</button>
+            </div>
+        </header>
+        <main>
+
+            <h2>Mis discos</h2>
+            <div id="total-discos"></div>
+            <section id="info-discos"></section>
+
+            <!--Archivos .js-->
+            <script src="validaciones.js"></script>
+            <script src="funciones.js"></script>
+            <script src="pista.js"></script>
+            <script src="disco.js"></script>
+            <script src="botones.js"></script>
+        </main>
+        <footer>
+            <ul>
+                <li>Profesor Fabrizio Carlassara</li>
+                <li>
+                    <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20SanchezLiporace,%20Andrea" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
+                </li>
+                <li>Programación 1</li>
+            </ul>
+        </footer>
+    </body>
+</html>
