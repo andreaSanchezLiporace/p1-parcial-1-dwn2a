@@ -147,6 +147,7 @@ header button:hover {
     color: var(--bg-color-light);
 }
 #info-discos .card {
+    position: relative;
     background-color: var(--bg-color-light);
     display: flex;
     flex-direction: column;
